@@ -10,8 +10,7 @@ export default function Home() {
 						<li key={lesson.name}>
 							<h2>{lesson.title}</h2>
 							<p>{lesson.points}</p>
-						</li>
-						
+						</li>						
 					)
 				})}
 			</ul>
